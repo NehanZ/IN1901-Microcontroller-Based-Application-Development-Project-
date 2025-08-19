@@ -1,0 +1,31 @@
+.header {
+  background-color: #2983BA !important;
+  color: white;
+
+  .navbar-nav > a {
+    color: #e1e1e1;
+  }
+
+  .nav-item.dropdown > a {
+    color: white;
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+    font-weight: bold;
+  }
+
+  #file-dropdown {
+    font-weight: normal !important;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 2.2rem;
+}

@@ -1,0 +1,45 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-toastify/dist/ReactToastify.css';
+@import './bootstrap.scss';
+
+.react-tooltip {
+  z-index: 9999;
+}
+
+.App {
+  background-color: #eee;
+}
+
+@media (min-width: 992px) {
+  .full-page {
+    height: calc(100vh - 64px);
+    overflow: auto;
+
+    .tab-content {
+      height: 100%;
+    }
+
+    .tab-pane {
+      height: 100%;
+    }
+  }
+
+  .full-page-tab {
+    height: calc(100vh - 114px);
+    overflow: auto;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#sidebar {
+  width: 550px;
+  padding-top: 0.5rem;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
